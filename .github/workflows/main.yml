@@ -24,6 +24,6 @@ jobs:
           # Username used by Basic authentication to the MS Deploy Service
           msdeploy-username: 'sageleo-001'
           # Password used by Basic authentication to the MS Deploy Service
-          msdeploy-password: 'BFxVvWO6pT&^w2'
+          msdeploy-password: 'C27MUgXr5netpO'
           # The path to the source directory that will be deployed
           source-path: 'portfolio'

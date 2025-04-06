@@ -25,6 +25,6 @@ jobs:
           # Local directory from which to upload.
           localDir: '/portfolio'
           # FTP Action: None | Copy | DeleteAppOfflineHtm.
-          #ftpAction: 'Copy'
+          ftpAction: 'Copy'
           # Ignore certificate errors.
           ignoreCertificateErrors: true

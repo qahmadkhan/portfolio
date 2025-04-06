@@ -9,22 +9,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: FTP Interactions
-        # You may pin to the exact commit or the version.
-        # uses: priradev/ftp-interactions@c5c9d983346d844b474381b43131b289b3be17f1
-        uses: priradev/ftp-interactions@v0.2.9-beta
+      - name: Simple FTP
+        uses: kevinpainchaud/simple-ftp-deploy-action@v1.2.1
         with:
-          # Address for the FTP host.
-          host: 'win6218.site4now.net'
-          # Port for the FTP host.
-          #port: # optional, default is 21
-          # Username for the FTP host.
-          username: 'sageleo-001'
-          # Password for the FTP host.
-          password: 'KXmSbBt7CVoeBM'
-          # Local directory from which to upload.
-          localDir: '/portfolio'
-          # FTP Action: None | Copy | DeleteAppOfflineHtm.
-          ftpAction: 'Copy'
-          # Ignore certificate errors.
-          ignoreCertificateErrors: true
+          ftp_host: 'win6218.site4now.net'
+          ftp_username: 'sageleo-001'
+          ftp_password: 'KXmSbBt7CVoeBM'
+          local_source_dir: '/'
+          dist_target_dir: '/portfolio'
+          delete: 'true'

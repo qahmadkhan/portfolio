@@ -1,0 +1,15 @@
+- name: IIS Deploy
+  # You may pin to the exact commit or the version.
+  # uses: ChristopheLav/iis-deploy@3b6a141da6e1923a4af25e01734ab58c081f8444
+  uses: ChristopheLav/iis-deploy@v1.0.0
+  with:
+    # IIS website name
+    website-name: 'sageleo-001-site1'
+    # MS Deploy Service URL
+    msdeploy-service-url: 'https://win6218.site4now.net:8172/MsDeploy.axd?site=sageleo-001-site1'
+    # Username used by Basic authentication to the MS Deploy Service
+    msdeploy-username: 'sageleo-001'
+    # Password used by Basic authentication to the MS Deploy Service
+    msdeploy-password: 'BFxVvWO6pT&^w2'
+    # The path to the source directory that will be deployed
+    source-path: 'portfolio'

@@ -15,6 +15,6 @@ jobs:
           ftp_host: 'win6218.site4now.net'
           ftp_username: 'sageleo-001'
           ftp_password: 'KXmSbBt7CVoeBM'
-          local_source_dir: '/'
+          local_source_dir: 'dist'
           dist_target_dir: '/portfolio'
           delete: 'true'

@@ -21,7 +21,7 @@ jobs:
           # Username for the FTP host.
           username: 'sageleo-001'
           # Password for the FTP host.
-          password: 'C27MUgXr5netpO'
+          password: 'KXmSbBt7CVoeBM'
           # Local directory from which to upload.
           localDir: '/portfolio'
           # FTP Action: None | Copy | DeleteAppOfflineHtm.
